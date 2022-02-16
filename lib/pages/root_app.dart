@@ -74,7 +74,7 @@ class _RootAppState extends State<RootApp> {
   Widget getBody() {
     List<Widget> pages = [
       HomePage(),
-      Center(
+      const Center(
         child: Text(
           "Search Page",
           style: TextStyle(
@@ -84,7 +84,7 @@ class _RootAppState extends State<RootApp> {
           ),
         ),
       ),
-      Center(
+      const Center(
         child: Text(
           "Upload Page",
           style: TextStyle(
@@ -94,7 +94,7 @@ class _RootAppState extends State<RootApp> {
           ),
         ),
       ),
-      Center(
+      const Center(
         child: Text(
           "Activity Page",
           style: TextStyle(
@@ -104,7 +104,7 @@ class _RootAppState extends State<RootApp> {
           ),
         ),
       ),
-      Center(
+      const Center(
         child: Text(
           "Account Page",
           style: TextStyle(
