@@ -51,7 +51,10 @@ class _RootAppState extends State<RootApp> {
         ),
       );
     } else if (pageIndex == 1) {
-      return AppBar();
+      return PreferredSize(
+        preferredSize: const Size.fromHeight(0),
+        child: AppBar(),
+      );
     } else if (pageIndex == 2) {
       return AppBar(
         backgroundColor: appBarColor,
